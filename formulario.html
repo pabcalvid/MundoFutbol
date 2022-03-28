@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mundo Futbol</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="icon" href="/icons/pelota-de-futbol.png" type="icons/png" sizes="16x16">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Mundo Futbol</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Futbol España</a></li>
+											<li><a href="elements.html">Futbol Europa</a></li>
+                                            <li><a href="otro.html">Rankings</a></li>
+                                            <li><a href="formulario.html">Formulario</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Formulario</h2>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<section>
+									<fieldset>
+                                        <legend>Tus datos:</legend>
+                                        <p>Nombre: <input type="text" name="nombre"></p>
+                                        <p>Edad: <input type="number" name="edad"></p>
+                                    </fieldset><br>
+                                    <form action="mailto:pablocv0805@gmail.com" method="get" name="formulario">
+                                        <label for="usuario">Ingresa tu nombre de usuario: </label>
+                                        <input type="text" name="usuario" id="usuario"><br>
+                                
+                                        <label for="clave">Contraseña: </label>
+                                        <input type="password" name="clave" id="clave" size="8"><br>
+                                    
+                                        <label for="liga">Seleccione una liga: </label><br>
+                                        <select name="liga" id="liga">
+                                            <option value="ov">Liga</option>
+                                            <optgroup label="LaLiga Santander">
+                                                <option value="rm">Real Madrid</option>
+                                                <option value="fcb">Barcelona</option>
+                                                <option value="atm">Atletico de Madrid</option>
+                                                <option value="rb">Real Betis</option>
+                                                <option value="sev">Sevilla</option>
+                                            </optgroup>
+                                            <optgroup label="Premier League">
+                                                <option value="mci">Manchester City</option>
+                                                <option value="mcu">Manchester United</option>
+                                                <option value="che">Chelsea</option>
+                                                <option value="ars">Arsenal</option>
+                                                <option value="eve">Everton</option>
+                                            </optgroup>
+                                            <optgroup label="Bundesliga">
+                                                <option value="fcb">Bayern de Munich</option>
+                                                <option value="bl">Bayer Leverkusen</option>
+                                                <option value="bd">Borussia Dortmund</option>
+                                                <option value="hof">Hoffenheim</option>
+                                                <option value="rbl">RB Leipzig</option>
+                                            </optgroup>
+                                            <optgroup label="otros">
+                                                <option value="otr">Otro</option>
+                                            </optgroup>
+                                        </select><br>
+                                    
+                                        <label for="correo">Danos tu correo electrónico: </label>
+                                        <input type="email" name="correo" id="correo"><br>
+                                    
+                                        <p>Seleccione sus preferencias(pueden ser ambas):</p>
+                                
+                                        <input type="checkbox" name="futbol masculino" id="futbol masculino" value="futbol masculino">
+                                        <label for="futbol masculino">Futbol masculino</label>
+                                
+                                        <input type="checkbox" name="futbol femenino" id="futbol femenino" value="futbol femenino">
+                                        <label for="futbol femenino">Futbol femenino</label><br>
+                                    
+                                        <p>Que tipo de noticias desea recibir:</p>
+                                
+                                        <input type="radio" name="fichajes" id="fichajes" value="fichajes">
+                                        <label for="fichajes">Fichajes</label>
+                                
+                                        <input type="radio" name="noticias" id="noticias" value="noticias">
+                                        <label for="noticias">Noticias</label>
+                                
+                                        <input type="radio" name="proximos_partidos" id="proximos_partidos" value="proximos_partidos">
+                                        <label for="proximos_partidos">Proximos partidos</label><br>
+                                    
+                                        <label for="mensaje">Indiaca otros equipos de los que te gustaria recibir noticias:<br></label>
+                                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br/>
+                                
+                                        <button type="submit" value="enviar" name="enviar" id="enviar">Enviar</button>
+                                        <button type="reset" value="reset" name="reset" id="reset">Restablecer</button>
+                                    </form><br>
+								</section>
+
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+						<p>Alumno: Pablo Calvo Vidal</p>
+        				<p>Asignatura: Lenguaje de marcas</p>
+        				<p>Curso: 2021-2022</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
